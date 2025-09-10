@@ -63,15 +63,17 @@ export default function ContactForm() {
         rows={5} 
         className="w-full rounded-xl border px-3 py-2 dark:border-zinc-700 bg-white/70 dark:bg-zinc-900/70 focus:ring-2 focus:ring-zinc-500 focus:border-transparent transition-all resize-vertical"
       ></textarea>
-      <button 
-        disabled={loading} 
-        type="submit"
-        aria-describedby={message ? "form-message" : undefined}
-        className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 magnetic ripple-effect"
-      >
-        <span className={loading ? "animate-spin" : ""}>{loading ? "⏳" : "📤"}</span>
-        {loading ? "Sending…" : "Send message"}
-      </button>
+      <div className="flex justify-center">
+        <button 
+          disabled={loading} 
+          type="submit"
+          aria-describedby={message ? "form-message" : undefined}
+          className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 magnetic ripple-effect"
+        >
+          <span className={loading ? "animate-spin" : ""}>{loading ? "⏳" : "📤"}</span>
+          {loading ? "Sending…" : "Send message"}
+        </button>
+      </div>
       {message && (
         <p 
           id="form-message" 

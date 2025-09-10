@@ -79,8 +79,9 @@ export default function HeroContent() {
         
         <div className="flex gap-3">
           <a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/drive/folders/1g4srzUKc5GOEOV1Mu99Sa-XNXtuecsDc?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-full border-2 border-gray-300 px-6 py-3 text-sm font-medium text-gray-700 transition-all duration-300 hover:border-blue-500 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-400 dark:hover:text-blue-400 magnetic hover:shadow-lg"
           >
             <FileText className="h-4 w-4 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12" />

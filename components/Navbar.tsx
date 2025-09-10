@@ -121,7 +121,9 @@ export default function Navbar() {
             </button>
             
             <a 
-              href="/resume.pdf" 
+              href="https://drive.google.com/drive/folders/1g4srzUKc5GOEOV1Mu99Sa-XNXtuecsDc?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="ripple-effect magnetic inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:from-purple-600 hover:to-blue-600"
             >
               <FileText className="h-4 w-4 transition-transform group-hover:scale-110" />
@@ -222,7 +224,9 @@ export default function Navbar() {
             
             <div className="flex items-center justify-between px-4">
               <a 
-                href="/resume.pdf" 
+                href="https://drive.google.com/drive/folders/1g4srzUKc5GOEOV1Mu99Sa-XNXtuecsDc?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg"
               >
                 <FileText className="h-4 w-4" />

@@ -392,9 +392,9 @@ export default function TechSection() {
                           className="group px-3 py-2.5 rounded-lg transition-all duration-200 hover:scale-[1.02] bg-white/60 dark:bg-gray-700/60 hover:bg-white/90 dark:hover:bg-gray-600/90 hover:shadow-sm border border-transparent hover:border-white/60 dark:hover:border-gray-500/60"
                         >
                           <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center justify-center gap-2 flex-1">
                               <span className="text-sm">{getSkillIcon(skill.name)}</span>
-                              <h4 className="text-sm font-semibold transition-colors text-slate-700 dark:text-slate-200 group-hover:text-black dark:group-hover:text-white">
+                              <h4 className="text-sm font-semibold transition-colors text-slate-700 dark:text-slate-200 group-hover:text-black dark:group-hover:text-white text-center">
                                 {skill.name}
                               </h4>
                             </div>
