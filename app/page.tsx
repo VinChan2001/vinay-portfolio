@@ -460,14 +460,6 @@ export default function Page() {
             </div>
           </Reveal>
 
-          {/* Footer */}
-          <Reveal delay={0.4}>
-            <div className="text-center mt-16 pt-8 border-t border-gray-200 dark:border-gray-700">
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                © 2025 Vinay Chanamallu. All rights reserved.
-              </p>
-            </div>
-          </Reveal>
         </div>
       </section>
     </main>
