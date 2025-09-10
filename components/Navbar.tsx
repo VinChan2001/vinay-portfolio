@@ -30,8 +30,8 @@ export default function Navbar() {
             <div className="h-3 w-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg transition-all group-hover:shadow-blue-500/50"></div>
             <div className="absolute inset-0 h-3 w-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 animate-ping opacity-20 group-hover:opacity-40"></div>
           </div>
-          <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent dark:from-gray-100 dark:to-gray-300 group-hover:text-shimmer">
-            Vinay Chanamallu
+          <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent animate-gradient group-hover:text-shimmer" style={{ backgroundSize: "200% 200%" }}>
+            VC
           </span>
         </Link>
 

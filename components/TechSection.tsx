@@ -329,7 +329,7 @@ export default function TechSection() {
 
       {/* Categories Grid */}
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 place-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-start">
           {currentCategories.map((category, categoryIndex) => {
             const hottestSkill = getHottestSkillInCategory(category.skills);
             
@@ -345,7 +345,7 @@ export default function TechSection() {
                     stiffness: 200,
                     damping: 20
                   }}
-                  className="bg-white/70 dark:bg-gray-800/70 rounded-xl p-4 backdrop-blur-sm border border-white/40 dark:border-gray-600/40 hover:bg-white/90 dark:hover:bg-gray-700/90 transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] w-full max-w-sm shadow-lg"
+                  className="bg-white/70 dark:bg-gray-800/70 rounded-xl p-6 backdrop-blur-sm border border-white/40 dark:border-gray-600/40 hover:bg-white/90 dark:hover:bg-gray-700/90 transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] w-full h-full shadow-lg flex flex-col"
                 >
                   {/* Category Header */}
                   <div className="flex items-center gap-2 mb-3">
@@ -370,7 +370,7 @@ export default function TechSection() {
                   </div>
 
                   {/* Skills Grid */}
-                  <div className="space-y-2">
+                  <div className="space-y-2 flex-1">
                     {category.skills.map((skill, skillIndex) => {
                       const { emoji, glow } = getFlameIntensity(skill.level);
                       const pct = skill.level * 20;

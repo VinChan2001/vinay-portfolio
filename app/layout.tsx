@@ -11,16 +11,16 @@ import LoadingAnimation from "@/components/LoadingAnimation";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://vinaychanamallu.com"),
   title: {
-    default: "Vinay — Full‑Stack / ML Engineer",
+    default: "Vinay — Data Scientist / ML Engineer",
     template: "%s • Vinay"
   },
   description: "Professional portfolio by Venkata Chandrasekhar Vinay Chanamallu — full‑stack developer & ML engineer. Case studies, projects, and contact.",
   openGraph: {
-    title: "Vinay — Full‑Stack / ML Engineer",
+    title: "Vinay — Data Scientist / ML Engineer",
     description: "Case studies that ship value. Clean code, clear UX, measurable impact.",
-    url: "https://your-domain.com",
+    url: "https://vinaychanamallu.com",
     siteName: "Vinay Portfolio",
     images: [{ url: "/og.png", width: 1200, height: 630 }],
     locale: "en_US",
