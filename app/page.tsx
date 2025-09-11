@@ -117,27 +117,28 @@ export default function Page() {
                 <div className="space-y-4 text-justify">
                   <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
                     I'm <span className="font-bold text-blue-600 dark:text-blue-400">Venkata Chandrasekhar Vinay Chanamallu</span>, 
-                    a passionate data scientist and ML engineer who loves turning messy, complex datasets into elegant solutions that solve real-world problems.
+                    a passionate data scientist and ML engineer who finds pure joy in transforming raw, chaotic data into elegant, intelligent solutions that make a real difference in people's lives.
                   </p>
                   
                   <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                    My days are spent deep in feature engineering, crafting meaningful representations from raw data, experimenting with ensemble methods, 
-                    and fine-tuning hyperparameters until models not only perform well but tell compelling stories about the patterns they've discovered. 
-                    There's something magical about watching a model learn and seeing those validation curves converge.
+                    There's something magical about the moment when a machine learning model finally clicks - when months of feature engineering, hyperparameter tuning, 
+                    and validation converge into something that not only predicts accurately but tells a compelling story about the patterns hidden in data. 
+                    My journey at EPAM Systems taught me that the most beautiful models are those that seamlessly blend statistical rigor with production reliability, 
+                    handling millions of transactions while maintaining the elegance of well-crafted algorithms.
                   </p>
                   
                   <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                    I'm particularly drawn to <span className="font-semibold text-purple-600 dark:text-purple-400">time-series forecasting and interpretable AI</span>, 
-                    building models that don't just predict the future, but explain their reasoning. Whether it's analyzing seasonal patterns, 
-                    implementing SHAP for model explainability, or deploying real-time inference pipelines, I believe the best ML solutions are ones 
-                    that stakeholders can understand and trust.
+                    I'm particularly fascinated by <span className="font-semibold text-purple-600 dark:text-purple-400">time-series forecasting and the art of making data infrastructure sing</span>. 
+                    Whether I'm crafting seasonal models that capture the subtle rhythms in business data, optimizing SQL queries until they run like poetry, 
+                    or building propensity models that genuinely understand customer behavior, I'm driven by the pursuit of solutions that are both intellectually satisfying 
+                    and practically transformative. The thrill of seeing conversion rates climb or ETL pipelines run faster never gets old.
                   </p>
                   
                   <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                    Beyond the models, I'm fascinated by the entire ML lifecycle, from data exploration and visualization in Jupyter notebooks 
-                    to orchestrating production-ready workflows on AWS. I work with S3 for data lakes, Lambda for serverless inference, 
-                    SageMaker for model training and deployment, and Redshift for large-scale analytics. Setting up automated pipelines with EMR 
-                    and monitoring model performance with CloudWatch brings the same satisfaction as tuning hyperparameters.
+                    What truly excites me is the entire ecosystem of modern ML engineering - from the initial spark of discovery in exploratory data analysis 
+                    to the satisfaction of watching automated systems hum along in production. I love architecting data pipelines that don't just work today 
+                    but evolve gracefully, creating dashboards that empower teams to make better decisions, and mentoring others to find their own passion 
+                    in the intersection of mathematics, engineering, and human insight.
                   </p>
 
                   {/* CTA Button to Experience */}
